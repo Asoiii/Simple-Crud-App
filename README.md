@@ -19,15 +19,15 @@ Framework CSS untuk mendesain antarmuka aplikasi dengan cepat dan mudah.
 
 3. Cara Kerja Aplikasi
 
-1. Dokter dan Pasien:
+a. Dokter dan Pasien:
 -Halaman HomeDokter dan HomePasien masing-masing menampilkan tabel data dokter dan pasien dengan fungsionalitas seperti edit, detail, dan hapus.
 -Tombol Tambah Dokter atau Tambah Pasien mengarahkan pengguna ke formulir input.
 -Tombol Edit membuka halaman formulir yang sudah terisi dengan data untuk diperbarui.
 -Tombol Detail menampilkan informasi lengkap dokter atau pasien dalam format card-style.
 -Semua request (GET, POST, PUT, DELETE) dikirim menggunakan Axios ke MockAPI sesuai endpoint masing-masing.
-2. Routing:
+b. Routing:
 -Navigasi antar halaman diatur dengan React Router DOM, memastikan aplikasi memiliki alur yang terstruktur dengan navigasi URL.
-3. UI/UX:
+c. UI/UX:
 -Desain aplikasi responsif dengan bantuan Tailwind CSS, memastikan tampilan yang baik di berbagai ukuran layar.
 
 
